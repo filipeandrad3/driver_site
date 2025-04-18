@@ -1,69 +1,103 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 10px;
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.topbar {
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Topbar */
+  .topbar {
     background-color: #08244c;
     color: white;
-    font-size: 14px;
-    padding: 10px 10px;
+    font-size: 13px;
+    padding: 10px 0;
   }
   
   .topbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    flex-wrap: wrap;
+  }
+
+  .topbar-left span{
+    margin-right: 30px;
+
   }
   
   .topbar i {
     color: #fdd835;
-    margin-right: 1px;
+    margin-right: 5px;
+  }
+
+  .topbar-right a {
+    color: #fdd835;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    margin-left: 15px;
   }
 
 
-.header {
+  
+  /* Header */
+  .header {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.header-content {
+  }
+  
+  .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 0;
-}
-
-.logo {
-    font-size: 25px;
+    padding: 15px;
+  }
+  
+  .logo {
+    font-size: 24px;
     font-weight: bold;
     color: #08244c;
-}
-
-.logo i {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo i {
     color: #fdd835;
-    margin-right: 20px;
-
-}
-
-.nav a {
-    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  .nav a {
+    margin-left: 15px;
     text-decoration: none;
     color: #08244c;
     font-weight: bold;
-    transition: color 0.2s;
-}
-
-.nav a:hover {
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover,
+  .nav a.active {
     color: #fdd835;
+  }
+
+.btn-yellow {
+    background-color: #fdd835;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ;
+}
+  
+.btn-yellow:houver {
+    background-color: #e6c200;
+    color: #fff;
 }
