@@ -101,3 +101,56 @@ body {
     background-color: #e6c200;
     color: #fff;
 }
+
+
+/* Overlay */
+
+.imagens {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.banner {
+  position: relative;
+}
+
+.overlay {
+  position :absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5,0,0,0.6);
+}
+
+.banner .container {
+  max-width: 600px;
+  text-align: left;
+}
+
+.banner h2 {
+  text-align: left;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.btn-more {
+  display: inline-block;
+  color: white;
+  background: #fdd835;
+  padding: 0.8rem 2rem;
+  border-color: black;
+}
+
+.btn-courses {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 0.8rem 2rem;
+}
+
+.carrosel {
+
+  text-align: start;
+}
