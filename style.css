@@ -59,6 +59,7 @@ body {
   .header {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    
   }
   
   .header-content {
@@ -67,9 +68,10 @@ body {
     align-items: center;
     padding: 15px 30px;
     border-bottom: 1px solid #ccc;
+    gap: 20px;
 
   }
-  
+
   .logo {
     font-size: 24px;
     font-weight: bold;
@@ -86,22 +88,32 @@ body {
     list-style: none;
     display: flex;
     gap: 25px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
   }
   
   .nav a {
     margin-left: 15px;
-    font-weight: 600;
+    font-weight: bold;
     text-decoration: none;
     color: #08244c;
     font-weight: bold;
     transition: color 0.3s;
-    cursor: pointer;
+    font-size: 14px;
   }
   
   .nav a:hover,
   .nav a.active {
     color: #fdd835;
   }
+  
 
 .bnt-yellow {
     background-color: #fdd835;
@@ -115,10 +127,10 @@ body {
     align-items: center;
     gap: 10px;
     text-decoration: none;
-    transition: background-color 0.3s ;
+    transition: background-color 0.3s;
 }
   
-.btn-yellow:houver {
+.bnt-yellow:hover {
     background-color: #e6c200;
     color: #fff;
 }
