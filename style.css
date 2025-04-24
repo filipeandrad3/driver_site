@@ -150,7 +150,29 @@ body {
   padding: 0.8rem 2rem;
 }
 
-.carrosel {
-
-  text-align: start;
+.carrosel img{
+  margin: 0, auto;
+  padding: 0.8rem 6rem;
+  position: relative;
+  width: 450px;
+  float: right;
 }
+
+.carrosel .container {
+ text-align: start;
+}
+
+
+.team .container {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 100px;
+  
+}
+
+.team h6 {
+  color: #fdd835;
+}
+
