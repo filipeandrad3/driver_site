@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Font Awesome 5 Free",sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   .container {
@@ -95,12 +95,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 2.5cm;
-    }
+    margin-left: 0;
+    margin-right: 0;
+  }
   
 .nav a {
     margin-left: 15px;
-    font-weight: bold;
     text-decoration: none;
     color: #08244c;
     font-weight: bold;
@@ -115,12 +115,13 @@ body {
   
 .bnt-yellow {
     background-color: #fdd835;
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
     color: #ffffff;
     padding: 20px 20px;
     border: 40px;
     border-radius: 0 4px 4px 0;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     align-items: center;
     gap: 10px;
@@ -133,14 +134,7 @@ body {
     color: #fff;
 }
 
-
-:root{
---cor-primaria: #0a243e;
---cor-destaque: #e89313;
---cor-texto: #333;
---cor-clara: #f9f9f9;
---sombra: 0 3px 10px rgba(0, 0, 0,0.1);
-}
+/* Banner */
 
 * {
     margin: 0;
@@ -153,18 +147,22 @@ body {
   background-position: center;
   height: 100vh;
   position: relative;
-}
+  color: black;
+ }
 
 .imagens {
     position: relative;
     color: var(--cor-clara);
     padding: 0;
     overflow: hidden;
-    height: 77vh;
+    height: 100vh;
     display: flex;
-    align-items: justify;
+    align-items: center;
     background-image: url("./imgs/carousel-1.jpg");
     background-size: contain;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .overlay {
@@ -182,38 +180,48 @@ body {
     text-align: left;
 }
 
-.h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #e2f207;
-    position: absolute;
-    top: 30%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    text-align: left;
+.container_bt h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white ;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: calc(1.575rem + 3.9vw);
+    align-items: center;
 }
 
-.botao {
-    border-radius: 10px;
-    background-color: #e2f207;
-    color: #edf0f1;
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    padding: 15px 25px;
-    cursor: pointer;
-    transform: scale(1.2);
+.buttons { 
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.botao2 {
-    border-radius: 10px;
-    background-color: aquamarine;
-    color: #f9f9f9;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    padding: 15px 25px;
+.btn-amarelo {
+    background-color: #f5b400;
+    color: white;
+    position: relative;
+    padding: 14px 28px;
+    font-size: 16px;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: none;
+    top: auto;
+    left: auto;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-while {
+    background-color: white;
+    color: #333;
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 14px 28px;
+    cursor: pointer;
+    transform: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 
