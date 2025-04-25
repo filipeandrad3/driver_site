@@ -236,4 +236,74 @@ body {
     font-size: 16px;
 }
 
+.content {
+  margin: 0.4rem 2rem;
+}
+
+.content img{
+  padding: 5.5rem 1rem;
+  padding-left: 8rem;
+  position: relative;
+  width: 450px;
+  float: right;
+  vertical-align: text-bottom;
+}
+
+.content .container p  {
+  font-size: 1,5rem;
+  margin: 0.2rem;
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.content ul, ul2 {
+  list-style-image: url(https://img.icons8.com/?size=35&id=59755&format=png&color=FAB005);
+}
+
+.container-content h3, h4, h6 {
+  color: #08244c;
+  font-size: 1rem;
+}
+.content .container h6{
+ color: #fdd835;
+ font-size: 1rem;
+}
+
+.content .container p {
+  color:rgb(121, 121, 120);
+}
+
+.team {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 100px;
+}
+
+.team h6 {
+  color: #fdd835;
+}
+
+.team h5, h3 {
+  color: #08244c;
+}
+
+.team img {
+  position: relative;
+  float: left;
+  padding-left: 2rem;
+  width: 15rem;
+}
+
+.team p {
+  color: rgb(121, 121, 120);
+}
+
+.sobreteam {
+  position: relative;
+  margin-top: 150px;
+}
 
