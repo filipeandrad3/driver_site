@@ -156,8 +156,6 @@ body {
   margin: 0.4rem 2rem;
 }
 
-
-
 .content img{
   padding: 5.5rem 1rem;
   padding-left: 8rem;
@@ -166,6 +164,9 @@ body {
   float: right;
   vertical-align: text-bottom;
 }
+
+
+
 .content .container p  {
   font-size: 1,5rem;
   margin: 0.2rem;
@@ -181,25 +182,14 @@ body {
 }
 
 /* == Font colors and adjusts == */
-.container-content , h4, h6 {
+.container-content h3, h4, h6 {
   color: #08244c;
   font-size: 1rem;
 }
-
-.content h3 {
-  color: #08244c;
-  font-size: 2rem;
-  text-align: justify;
-  padding-left: 5rem ;
-}
-
 .content .container h6{
  color: #fdd835;
- font-size: 1.5rem ;
- text-align: justify;
- padding-left: 5rem;
+ font-size: 1rem ;
 }
-
 .content .container p{
   color:rgb(121, 121, 120)
 }
@@ -210,63 +200,32 @@ body {
   font-size: 1.5rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 100px;
+  
 }
 
 .team h6 {
   color: #fdd835;
 }
 
-.team h5 {
+.team h5, h3 {
   color: #08244c;
 }
 
 .team img {
-  display: block;
-  position: sticky;
+  position: relative;
   float: left;
   padding-left: 2rem;
-  padding-top: 2rem;
   width: 15rem;
-
 }
 
-.sobreteam h5{
-  display: block;
-  text-align: center;
+.team p {
+  color: rgb(121, 121, 120);
 }
 
-.overlayteam1 {
-  position: absolute;
-  top: 129.6rem;
-  left: 9.5rem;
-  width: 17.8%;
-  height: 48%;
-  background-color:  rgba(178, 240, 240, 0.2);
-}
+.sobreteam {
+  position: relative;
+  margin-top: 150px;
+  
 
-.overlayteam2 {
-  position: absolute;
-  top: 129.6rem;
-  left: 26.5rem;
-  width: 17.8%;
-  height: 48%;
-  background-color:  rgba(178, 240, 240, 0.2);
-}
 
-.overlayteam3 {
-  position: absolute;
-  top: 129.6rem;
-  left: 43.5rem;
-  width: 17.8%;
-  height: 48%;
-  background-color:  rgba(178, 240, 240, 0.2);
-}
-
-.overlayteam4 {
-  position: absolute;
-  top: 129.6rem;
-  left: 60.5rem;
-  width: 17.8%;
-  height: 48%;
-  background-color:  rgba(178, 240, 240, 0.2);
 }
