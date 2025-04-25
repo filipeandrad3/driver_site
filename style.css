@@ -150,29 +150,123 @@ body {
   padding: 0.8rem 2rem;
 }
 
-.carrosel img{
-  margin: 0, auto;
-  padding: 0.8rem 6rem;
+/* Conteúdo */
+
+.content {
+  margin: 0.4rem 2rem;
+}
+
+
+
+.content img{
+  padding: 5.5rem 1rem;
+  padding-left: 8rem;
   position: relative;
   width: 450px;
   float: right;
+  vertical-align: text-bottom;
+}
+.content .container p  {
+  font-size: 1,5rem;
+  margin: 0.2rem;
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
-.carrosel .container {
- text-align: start;
+.content ul, ul2 {
+  list-style-image: url(https://img.icons8.com/?size=35&id=59755&format=png&color=FAB005);
+}
+
+/* == Font colors and adjusts == */
+.container-content , h4, h6 {
+  color: #08244c;
+  font-size: 1rem;
+}
+
+.content h3 {
+  color: #08244c;
+  font-size: 2rem;
+  text-align: justify;
+  padding-left: 5rem ;
+}
+
+.content .container h6{
+ color: #fdd835;
+ font-size: 1.5rem ;
+ text-align: justify;
+ padding-left: 5rem;
+}
+
+.content .container p{
+  color:rgb(121, 121, 120)
 }
 
 
-.team .container {
-  display: block;
+.team {
   text-align: center;
   font-size: 1.5rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 100px;
-  
 }
 
 .team h6 {
   color: #fdd835;
 }
 
+.team h5 {
+  color: #08244c;
+}
+
+.team img {
+  display: block;
+  position: sticky;
+  float: left;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  width: 15rem;
+
+}
+
+.sobreteam h5{
+  display: block;
+  text-align: center;
+}
+
+.overlayteam1 {
+  position: absolute;
+  top: 129.6rem;
+  left: 9.5rem;
+  width: 17.8%;
+  height: 48%;
+  background-color:  rgba(178, 240, 240, 0.2);
+}
+
+.overlayteam2 {
+  position: absolute;
+  top: 129.6rem;
+  left: 26.5rem;
+  width: 17.8%;
+  height: 48%;
+  background-color:  rgba(178, 240, 240, 0.2);
+}
+
+.overlayteam3 {
+  position: absolute;
+  top: 129.6rem;
+  left: 43.5rem;
+  width: 17.8%;
+  height: 48%;
+  background-color:  rgba(178, 240, 240, 0.2);
+}
+
+.overlayteam4 {
+  position: absolute;
+  top: 129.6rem;
+  left: 60.5rem;
+  width: 17.8%;
+  height: 48%;
+  background-color:  rgba(178, 240, 240, 0.2);
+}
