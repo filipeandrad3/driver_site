@@ -5,6 +5,7 @@
   <title>Drivin</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
 </head>
 <body>
   <!-- Topbar -->
@@ -14,11 +15,10 @@
      <div  class="topbar-left">
         <span><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</span>
         <span><i class="fas fa-clock"></i> Mon - Fri : 09.00 AM - 09.00 PM</span>
-
-        <span><i class="fa-solid fa-phone"></i>+12 345 6789</span>
-
      </div>
+     
      <div class="topbar-right">
+        <span class="social-icons"><i class="fa-solid fa-phone"></i>+12 345 6789</span>
       <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
       <a href="#"><i class="fa-brands fa-twitter"></i></a>
       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -28,47 +28,50 @@
   </div>
 
   <!-- Header -->
-  <header class="header">
-    <div class="container header-content">
-      <div class="logo">
+<header class="header">
+    <div class="container header-content" style="border: 2px solid red;">
+      
+      <div class="logo" style="border: 2px solid blue;">
         <i class="fas fa-car"></i> <span>Drivin</span>
       </div>
-      <nav class="nav">
+
+      <div class="nav-wrapper" style="border: 2px solid green;">
+       <nav class="nav">
         <a href="#" class="active">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">COURSES</a>
-        <a href="#">PACKAGES</a>
-      </nav>
-    </div>
-<!-- Botão -->
-    <div>
-        <a href="#" class="btn-yellow">GET STARTED<i class="fas fa-arrow-right"></i></a>
-    </div>
-  
+        <a href="#">PAGES</a>
+        <a href="#">CONTACT</a>
+       </nav>
+       <a href="#" class="bnt-yellow">GET STARTED<i class="fas fa-arrow-right"></i></a>
+      </div>
   </header>
-<!-- Container e overlay -->
-      <main>
-        <section class="banner">
-          <div class="imagens">
-          <img src="https://img.freepik.com/free-photo/car-instructor-explaining-city-traffic-rules-before-driving-car_342744-678.jpg?t=st=1745167353~exp=1745170953~hmac=5ed86103070f34ea0c1a4a672b193f55a563b1741ef4425996d3c346cad8e082&w=740" alt="Treinamento">
-          <img src="https://img.freepik.com/free-photo/car-interior-view-female-woman-driver-adjusting-mirrors-before-driving-car_342744-699.jpg?t=st=1745167488~exp=1745171088~hmac=e7aaaf1e1ee04d406e5888dc5cd3219920fe8aee18dedf4adbde8aacc93ace56&w=740" alt="Mulher ajustando o retrovisor"></div>
-        <div class="overlay"></div>
-            <h2> Learn and drive with Confidence</h2>
-            <a href="#"><p class="btn-more">Learn more</p></a> <a href="#"><p class="btn-courses">Our courses</p></a>
- <!-- Botões do slide -->
-            <div class="left button">
-              <button> < </button>
-            </div>
-            <div class="right button">
-              <button> > </button>
-            </div>
-          </div>
-        </section>
-        
-        <!-- Content Copie a partir daqui!--> 
-         <br> 
 
-        <section id="content" class="content">
+  <main>
+     <session>
+            <div class="banner" style="border: 5px solid green">
+                <div class="container_banner" style="border: 5px solid red">
+                    <div class="imagens" id="imagens">
+                        <div class="overlay"></div>
+                        <div class="background"></div>
+
+                        <div class="container_bt" style="border: 5px solid blue ">
+                            <h2>Learn To Drive With <br><span>Confidence</span></h2>
+
+                            <div class="buttons">
+                                <a href="https://loco.com/streamers/yodasl?lang=pt-br" class="btn-amarelo" target="_blank">Learn More</a>
+                                <a href="" class="btn-while" target="_blank">Our Courses</a>
+                            </div> 
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </session>
+        
+  </main>
+
+<section id="content" class="content">
           <div class="container">
             <h6>Why choose us!</h6>
             <h3>Best driving training Agency <br> In your city!</h3>
@@ -106,9 +109,8 @@
                   </ul2>
                   </div>
                   </div>
-                  </section>
+      </section>
         <br>
-      <!-- Conheça o time! -->
 
       <br>
       <section id="team" class="team">
@@ -125,11 +127,7 @@
             </div>
         </div>
 
-      </section>
-
-        
-      </main>
-  
+  </section>
 
 </body>
 </html>
