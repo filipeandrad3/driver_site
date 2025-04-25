@@ -53,6 +53,12 @@ body {
     text-decoration: none;
   }
 
+  .social-icons span i {
+    display: flex;
+    align-items: end;
+    gap: 50px;
+  }
+
 
   
   /* Header */
@@ -177,7 +183,12 @@ body {
 .container_bt {
     position: relative;
     display: inline-block;
-    text-align: left;
+    text-align: center;
+}
+
+.container_bt span {
+  align-items: center;
+  justify-content: center;
 }
 
 .container_bt h2 {
@@ -187,6 +198,7 @@ body {
     line-height: 1.2;
     font-size: calc(1.575rem + 3.9vw);
     align-items: center;
+    justify-content: center;
 }
 
 .buttons { 
