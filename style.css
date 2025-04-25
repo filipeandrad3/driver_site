@@ -236,20 +236,98 @@ body {
     font-size: 16px;
 }
 
-.content {
-  margin: 0.4rem 2rem;
+
+
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
 }
 
-.content img{
-  padding: 5.5rem 1rem;
-  padding-left: 8rem;
-  position: relative;
-  width: 450px;
-  float: right;
-  vertical-align: text-bottom;
+.text-column {
+  flex: 1;
+  min-width: 300px;
 }
 
-.content .container p  {
+.image-column {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 30px;
+  margin-top: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.icon-box {
+  background-color: #ffc107;
+  color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.text-column h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.text-column h3 {
+  font-size: 2rem; /* ~32px */
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #0f2c59;
+}
+
+.feature-text h4 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  color: #0f2c59;
+}
+
+.feature-text p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* .content .container p  {
   font-size: 1,5rem;
   margin: 0.2rem;
   word-break: keep-all;
@@ -305,5 +383,5 @@ body {
 .sobreteam {
   position: relative;
   margin-top: 150px;
-}
+} */
 
